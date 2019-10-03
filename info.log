@@ -1,0 +1,25 @@
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"Bookmark with id 45bd259d-6cef-4d6a-aea1-555aec108624 not found.","level":"error"}
+{"message":"Bookmark with id 45bd259d-6cef-4d6a-aea1-555aec108624 not found.","level":"error"}
+{"message":"Bookmark with id 45bd259d-6cef-4d6a-aea1-555aec108624 not found.","level":"error"}
+{"message":"Card with id 45f68f31-7d8a-4cf0-ae29-d68bc78955a7 is deleted.","level":"info"}
+{"message":"Bookmark with id 45f68f31-7d8a-4cf0-ae29-d68bc78955a7 not found.","level":"error"}
+{"message":"Invalid url htps://wwwthinkful.com provided","level":"error"}
+{"message":"Invalid rating: 78","level":"error"}
+{"message":"Card with id 41e40adf-9ea8-471c-9a3c-799864d0f57c is deleted.","level":"info"}
+{"message":"Bookmark with id 41e40adf-9ea8-471c-9a3c-799864d0f57c not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
