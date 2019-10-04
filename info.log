@@ -61,3 +61,11 @@
 {"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
 {"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
 {"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"update \"bookmarks\" set \"rating\" = $1 where \"id\" = $2 - invalid input syntax for integer: \"invalid\"","level":"error"}
+{"message":"update \"bookmarks\" set \"rating\" = $1 where \"id\" = $2 - invalid input syntax for integer: \"invalid\"","level":"error"}
+{"message":"update \"bookmarks\" set \"rating\" = $1 where \"id\" = $2 - invalid input syntax for integer: \"invalid\"","level":"error"}
+{"message":"update \"bookmarks\" set \"rating\" = $1 where \"id\" = $2 - invalid input syntax for integer: \"invalid\"","level":"error"}
+{"message":"update \"bookmarks\" set \"rating\" = $1 where \"id\" = $2 - invalid input syntax for integer: \"invalid\"","level":"error"}
+{"message":"update \"bookmarks\" set \"rating\" = $1 where \"id\" = $2 - invalid input syntax for integer: \"invalid\"","level":"error"}
+{"message":"update \"bookmarks\" set \"rating\" = $1 where \"id\" = $2 - invalid input syntax for integer: \"invalid\"","level":"error"}
+{"message":"update \"bookmarks\" set \"rating\" = $1 where \"id\" = $2 - invalid input syntax for integer: \"invalid\"","level":"error"}

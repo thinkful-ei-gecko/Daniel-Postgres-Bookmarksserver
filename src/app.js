@@ -18,7 +18,7 @@ app.use(
 app.use(helmet());
 app.use(cors());
 
-app.use(bookmarkRouter);
+app.use('/api', bookmarkRouter);
 
 app.use(errorHandler)
 
