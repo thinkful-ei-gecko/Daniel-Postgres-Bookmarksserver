@@ -23,3 +23,41 @@
 {"message":"Bookmark with id 654 not found.","level":"error"}
 {"message":"Bookmark with id 654 not found.","level":"error"}
 {"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Title is required","level":"error"}
+{"message":"URL is required","level":"error"}
+{"message":"Invalid url new url provided","level":"error"}
+{"message":"Invalid url new url provided","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"serializeArticle is not defined","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"serializeArticle is not defined","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"ArticlesService is not defined","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Bookmark with id 654 not found.","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
+{"message":"Undefined binding(s) detected when compiling DEL. Undefined column(s): [id] query: delete from \"bookmarks\" where \"id\" = ?","level":"error"}
