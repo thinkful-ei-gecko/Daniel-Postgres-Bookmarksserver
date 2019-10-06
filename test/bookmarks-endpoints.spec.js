@@ -187,7 +187,7 @@ describe(`Bookmarks Endpoints`, function() {
           .insert(testBookmarks)
       })
 
-      it('responds wiht 204 and updates the bookmark', () => {
+      it('responds with 204 and updates the bookmark', () => {
         const idToUpdate = 2
         const updateBookmark = {
           title: 'updated title', 
@@ -228,8 +228,12 @@ describe(`Bookmarks Endpoints`, function() {
           title: 'updated bookmark title',
         }
         const expectedBookmark = {
-          ...testBookmarks[idToUpdate - 1],
-          ...updateBookmark
+
+          TEST BOOKMARKS NEEDS TO BE DEFINED
+          // ...testBookmarks[idToUpdate - 1],
+          // ...updateBookmark
+          title: updateBookmark.title,
+          url: testbookmarks[idToUpdate-1].url
         }
 
         return supertest(app)

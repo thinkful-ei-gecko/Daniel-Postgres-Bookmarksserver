@@ -4,6 +4,7 @@ const path = require('path');
 const BookmarksService = require('./bookmarks-service');
 const bookmarkRouter = express.Router();
 const bodyParser = express.json();
+const { isWebUri } = require('valid-url')
 
 const serialize = bookmark => ({
   id: bookmark.id,
@@ -72,9 +73,10 @@ bookmarkRouter
   .patch(bodyParser, (req, res, next) => {
     const { title, url, description, rating } = req.body;
     const bookmarkToUpdate = { title, url, description, rating };
-      console.log("PATTTTCH")
-      console.dir(bookmarkToUpdate)
-      console.log(req.params)
+    console.log("PATTTTCH")
+    console.dir(bookmarkToUpdate)
+    console.log(req.params)
+
     //server validation
 
     const numberOfValues = Object.values(bookmarkToUpdate).filter(Boolean)
@@ -87,32 +89,35 @@ bookmarkRouter
       });
     }
 
-    if (bookmarkToUpdate.rating) {
-      if (typeof bookmarkToUpdate.rating !== 'number') {
-        return res.status(400).json({
-          error: {
-            message: `Rating must be a number between 0 and 5`
-          }
-        })
-      }
-      if(bookmarkToUpdate.rating > 5 || bookmarkToUpdate.rating < 0) {
-        return res.status(400).json({
-          error: {
-            message: `Rating must be between 0 and 5`
-          }
-        })
-      }
+    // if (bookmarkToUpdate.rating) {
+    //   console.log(bookmarkToUpdate.rating)
+    //   if (typeof bookmarkToUpdate.rating !== 'number') {
+    //     return res.status(400).json({
+    //       error: {
+    //         message: `Rating must be a number`
+    //       }
+    //     })
+    //   }
+
+    if(parseFloat(bookmarkToUpdate.rating) > 5 || parseFloat(bookmarkToUpdate.rating) < 0) {
+      return res.status(400).json({
+        error: {
+          message: `This number is messed up`
+        }
+      })
     }
+    
 
     if (bookmarkToUpdate.url) {
-      if (!bookmarkToUpdate.url.includes('http://')) {
+      if (!isWebUri(url)) {
         return res.status(400).json({
           error: {
             message: `'url' must be a valid URL`
           }
-        })
+        });
       }
     }
+
     BookmarksService.updateBookmark(
       req.app.get('db'),
       req.params.id,
