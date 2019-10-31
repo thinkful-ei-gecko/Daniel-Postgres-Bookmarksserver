@@ -5,8 +5,9 @@ const cors = require('cors');
 const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
 const bookmarkRouter = require('./bookmark/bookmark-router');
+const checkToken = require('./bearer-token.js')
 const errorHandler = require('./error-handler')
-
+ 
 const app = express();
 
 app.use(
@@ -18,6 +19,7 @@ app.use(
 app.use(helmet());
 app.use(cors());
 
+app.use(checkToken);
 app.use('/api', bookmarkRouter);
 
 app.use(errorHandler)

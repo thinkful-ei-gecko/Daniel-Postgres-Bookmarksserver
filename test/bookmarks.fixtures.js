@@ -46,9 +46,8 @@ function makeBookmarksArray() {
 
 function makeMaliciousBookmark() {
   const maliciousBookmark = {
-    id: 666,
     title: 'Naughty naughty very naughty <script>alert("xss");</script>',
-    url: 'www.twitter.com', 
+		 url: 'http://www.twitter.com', 
     description: `Bad image <img src="https://url.to.file.which/does-not.exist" onerror="alert(document.cookie);">. But not <strong>all</strong> bad.`,
     rating: 2
   }
